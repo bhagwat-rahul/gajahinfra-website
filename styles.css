@@ -229,6 +229,16 @@ section {
     line-height: 1.8;
 }
 
+.founder-info {
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    margin: 2rem 0 1.5rem;
+    padding: 1rem;
+    background: var(--light-color);
+    border-left: 4px solid var(--secondary-color);
+    border-radius: 5px;
+}
+
 .stats {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
